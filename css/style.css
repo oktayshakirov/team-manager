@@ -1,0 +1,245 @@
+body {
+    font: 400 1.3rem/20px Arial, Helvetica, sans-serif;
+    color: #dadada;
+    background: linear-gradient(to right, #ffffff, #f1ffff);
+  }
+
+  .main-header {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .header-logo {
+    width: 80px;
+    margin-right: 20px;
+  }
+  
+  .header-text {
+    flex: 1;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .header-description {
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: center;
+  }  
+ 
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .heading, h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    color: black;
+  }
+  
+  .btn {  
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 160px;
+    height: 45px;
+    background-image: linear-gradient(to top, #d8d9dbc4 0%, #ffffffc9 80%, #fdfdfdc7 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+    margin: 13px;
+  }
+
+  input:disabled {
+  border: 1px solid #626264be;
+  }
+
+  .btn a {
+    text-decoration: none; 
+  }
+  
+  .btn:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  }
+  
+  .btn:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  .btn:focus {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  .ma-list {
+    background-color: #E8581F99;
+  }
+  
+  .dp-list {
+    background-color: #2980b999;
+  }
+  
+  .create {
+    background-color: #27ae6099;
+  }
+  
+  
+  .save {
+    color: #27ae60;
+  }
+  
+  .reset {
+    font-weight: bold;
+    padding: 0.15rem 0.32rem;
+  }
+  
+  .delete {
+    color: #ea6153;
+  }
+  
+  .warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+  }
+  
+  .header .cell,
+  .green .cell,
+  .blue .cell {
+    color: #fff;
+  }
+
+  .message {
+    background-color: #E8581F99;
+    padding: .5rem 0;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 850px) {
+    body {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  
+    .table {
+      display: block;
+    }
+  
+    nav {
+      display: block;
+    }
+  
+    .cell {
+      padding: 2px 16px;
+      display: block;
+    }
+  
+    button.btn {
+      width: 100%;
+    }
+  
+    .cell.center {
+      margin-left: 75%;
+      margin-bottom: 1%;
+    }
+  
+    .cell {
+      margin-bottom: 3%;
+      margin-top: 3%;
+    }
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 800px;
+  }
+  
+  .table {
+    width: 100%;
+    overflow-x: auto;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: table;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .row {
+    display: table-row;
+    background: #ffffff;
+    line-height: 1.5;
+  }
+  
+  .row:nth-of-type(odd) {
+    background: #f5f5f5;
+  }
+  
+  .row.header,
+  .row.green,
+  .row.blue {
+    font-weight: bold;
+  }
+  
+  .row.header {
+    color: #ffffff;
+    background: linear-gradient(to right, #363795, #005C97); 
+  }
+  
+  .row.green {
+    background: linear-gradient(to right, #6cd63bf5, #a8e063);
+  }
+  
+  .row.blue {
+    color: #ffffff;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  }
+  
+  .cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #dddddd9f;
+  }
+  
+  
+  .cell {
+    color: #3b3b3b;
+    padding: 6px 12px;
+    display: table-cell;
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 11px;
+    }
+  
+  @media screen and (max-width: 380px) {
+    body {
+    font-size: 9px;
+    }
+   
