@@ -69,7 +69,7 @@
         <!-- Set $isDisabled=false to enable -->
         <input class="save center" type="submit" value="&#10004;" <?php $isDisabled = true; if ($isDisabled) echo 'disabled'; ?>>
         </div>
-        <div class="cell center">&nbsp;&nbsp;
+        <div class="x">&nbsp;&nbsp;
           <input class="reset" type="reset" value=&olarr;>
         </div>
       </div>

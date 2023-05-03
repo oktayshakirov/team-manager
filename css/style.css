@@ -180,14 +180,17 @@ body {
   
   .table {
     width: 100%;
-    overflow-x: auto;
     margin: 0;
-    width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     display: table;
     font-family: 'Open Sans', sans-serif;
     border-radius: 15px;
     overflow: hidden;
+  }
+  
+  /* Use overflow-x:auto to add horizontal scroll */
+  .table-wrapper {
+    overflow-x: auto;
   }
   
   .row {
@@ -208,7 +211,7 @@ body {
   
   .row.header {
     color: #ffffff;
-    background: linear-gradient(to right, #363795, #005C97); 
+    background: linear-gradient(to right, #363795, #005C97);
   }
   
   .row.green {
@@ -232,14 +235,27 @@ body {
     padding: 6px 12px;
     display: table-cell;
   }
+  
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+    select {
+    width: 90%;
+  }
+
 
   @media screen and (max-width: 480px) {
     body {
       font-size: 11px;
     }
+
+
   
   @media screen and (max-width: 380px) {
     body {
     font-size: 9px;
     }
+
    
