@@ -1,14 +1,17 @@
 body {
     font: 400 1.3rem/20px Arial, Helvetica, sans-serif;
     color: #dadada;
-    background: linear-gradient(to right, #ffffff, #f1ffff);
-  }
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
 
   .main-header {
-    background-color: #ffffff;
+    background-color: #ffffffb2;
     color: #333333;
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
   }
   
   .header-container {
@@ -64,7 +67,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     color: #606060;
-    text-shadow: 0 1px #fff;
+    text-shadow: 0 1px #ffffff;
     margin: 13px;
   }
 
@@ -77,7 +80,7 @@ body {
   }
   
   .btn:hover {
-    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+    box-shadow: 0 4px 3px 1px #fcfcfcd0, 0 6px 8px #d6d7d9cd, 0 -4px 4px #cecfd1c8, 0 -6px 4px #fefefeb4, inset 0 0 3px 3px #CECFD1;
   }
   
   .btn:active {
@@ -195,12 +198,12 @@ body {
   
   .row {
     display: table-row;
-    background: #ffffff;
+    background: #ffffff90;
     line-height: 1.5;
   }
   
   .row:nth-of-type(odd) {
-    background: #f5f5f5;
+    background: #f5f5f5cd;
   }
   
   .row.header,
@@ -251,11 +254,17 @@ body {
       font-size: 11px;
     }
 
+    .btn {
+      margin: 13px auto;
+    }
+
 
   
   @media screen and (max-width: 380px) {
     body {
     font-size: 9px;
     }
-
+    .btn {
+      margin: 13px auto;
+    }
    
