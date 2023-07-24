@@ -7,7 +7,9 @@ This project was made using PHP, HTML & CSS
 
 ![Desktop Demo](https://oktayshakirov.com/assets/images/projects/team-manager.png "Desktop Demo")
 
-Also viewable [here](https://oktayshakirov.000webhostapp.com/team-manager)
+<p align="center">
+  <a href="https://oktayshakirov.000webhostapp.com/team-manager"><strong>➥ Live Demo</strong></a>
+</p>
 
 
 ## License
