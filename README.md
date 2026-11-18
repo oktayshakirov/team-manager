@@ -5,7 +5,7 @@ This project was made using PHP, HTML & CSS
 
 ## Demo 
 
-![Desktop Demo](https://oktayshakirov.com/assets/images/projects/team-manager.png "Desktop Demo")
+![Desktop Demo](https://oktayshakirov.com/assets/images/projects/team-manager.webp "Desktop Demo")
 
 <p align="center">
   <a href="https://oktayshakirov.000webhostapp.com/team-manager"><strong>➥ Live Demo</strong></a>
